@@ -1,0 +1,33 @@
+{
+  "name": "learnnode",
+  "version": "1.0.0",
+  "description": "Learning Node.js with TypeScript for RESTful goodness",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agearhart/LearnNode.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "rest"
+  ],
+  "author": "Andrew Gearhart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agearhart/LearnNode/issues"
+  },
+  "homepage": "https://github.com/agearhart/LearnNode#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "tslint": "^6.1.2"
+  }
+}
