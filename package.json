@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/agearhart/LearnNode#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "typescript": "^3.9.7"
   },
   "devDependencies": {
